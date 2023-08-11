@@ -61,12 +61,10 @@ public class DataGenerator {
             return registeredUser;
         }
     }
-
     @Value
     public static class RegistrationDto {
         String login;
         String password;
         String status;
     }
-
 }
